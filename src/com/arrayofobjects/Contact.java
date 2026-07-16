@@ -10,6 +10,8 @@ public class Contact {
 		if (validateContactNumber(contactNumber) && validateName(name)) {
 			this.name = name;
 			this.contactNumber = contactNumber;
+			System.out.println("Testing");
+			System.out.println("Testing");
 		}
 	}
 
